@@ -108,4 +108,10 @@ public class LgeLteRIL extends RIL implements CommandsInterface {
             mPendingGetSimStatus = null;
         }
     }
+
+    public void
+    getDataCallProfile(int appType, Message result) {
+        return;
+    }
+
 }
